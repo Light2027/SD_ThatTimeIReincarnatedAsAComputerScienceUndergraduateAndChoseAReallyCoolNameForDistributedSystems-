@@ -9,6 +9,9 @@ https://github.com/Light2027/SD_ThatTimeIReincarnatedAsAComputerScienceUndergrad
 ## Azure DevOps
 https://dev.azure.com/112966/Uebung
 
+## Azure Container Registry Image URL
+uebung.azurecr.io/lightsdthattimeireincarnatedasacomputerscienceunde
+
 ## Azure Kubernetes Service API URL
 uebung-dns-c122e23c.hcp.westeurope.azmk8s.io
 
