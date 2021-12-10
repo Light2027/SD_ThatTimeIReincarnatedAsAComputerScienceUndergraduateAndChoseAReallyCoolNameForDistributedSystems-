@@ -1,12 +1,12 @@
 # Links
-https://minikube.sigs.k8s.io/docs/handbook/accessing/#using-minikube-tunnel
-https://www.youtube.com/watch?v=K4uNl6JA7g8
-https://kubernetes.io/docs/tasks/inject-data-application/define-environment-variable-container/
+[minikube](https://minikube.sigs.k8s.io/docs/handbook/accessing/#using-minikube-tunnel)
+[CI-CD for AKS](https://www.youtube.com/watch?v=K4uNl6JA7g8)
+[env-variable-container for kubernetes](https://kubernetes.io/docs/tasks/inject-data-application/define-environment-variable-container/)
 
-## GitHub
+## GitHub repo
 https://github.com/Light2027/SD_ThatTimeIReincarnatedAsAComputerScienceUndergraduateAndChoseAReallyCoolNameForDistributedSystems-
 
-## Azure DevOps
+## DevOps pipelines
 https://dev.azure.com/112966/Uebung
 
 ## Azure Container Registry Image URL
@@ -42,4 +42,5 @@ Afterwards, we noticed a template was already available for the pipelines that b
 You don't need the Kubernetes files. We decided to leave them in and then adjusted the newly created YAML files.
 Azure could not find my config file, so it was removed and the YAML files adjusted.
 After that, it worked but still adjusted the ports to use port **80** instead of **8080**.
-See images folder.
+See images folder for more info.
+We tried to rename the repository once.
