@@ -9,6 +9,9 @@ https://github.com/Light2027/SD_ThatTimeIReincarnatedAsAComputerScienceUndergrad
 ## Azure DevOps
 https://dev.azure.com/112966/Uebung
 
+## Azure Kubernetes Service API URL
+uebung-dns-c122e23c.hcp.westeurope.azmk8s.io
+
 # Process
 Here we first created the docker file. Then, after some testing of course, we built it and pushed it to the registry for testing purposes using the following commands.
 ```console
@@ -35,3 +38,4 @@ Afterwards we noticed there was already a template available for the pipelines t
 Apparently you don't need the Kubernetes files, so those were deleted and the newly created yaml files adjusted.
 Azure could not find my config file so it was removed and the yaml files adjusted.
 After that it worked, but still adjusted the ports so that the app uses port **80** instead of **8080**.
+See images folder.
