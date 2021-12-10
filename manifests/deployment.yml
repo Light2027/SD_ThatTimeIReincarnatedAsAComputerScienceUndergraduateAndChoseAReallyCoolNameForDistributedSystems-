@@ -16,4 +16,10 @@ spec:
         - name: lightsdthattimeireincarnatedasacomputerscienceunde 
           image: uebung.azurecr.io/lightsdthattimeireincarnatedasacomputerscienceunde
           ports:
-          - containerPort: 80
+          - containerPort: 8080
+          env:
+          - name: PORT 
+            valueFrom:
+              configMapKeyRef:
+                name: lightsdthattimeireincarnatedasacomputerscienceunde-config          
+                key: PORT
