@@ -19,7 +19,4 @@ spec:
           - containerPort: 8080
           env:
           - name: PORT 
-            valueFrom:
-              configMapKeyRef:
-                name: lightsdthattimeireincarnatedasacomputerscienceunde-config          
-                key: PORT
+            value: "8080"

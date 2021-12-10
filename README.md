@@ -32,3 +32,4 @@ So Azure apparently wants you to use the Azure Container Registry, so Istvan had
 Then Istvan deleted his Kubernetes cluster, and created a new one for this project.
 Afterwards we noticed there was already a template available for the pipelines that builds the image, pushes it to the registry, and finally deploys it to the Azure Kubernetes Cluster, so we gave it a try.
 Apparently you don't need the Kubernetes files, so those were deleted and the newly created yaml files adjusted.
+Azure could not find my config file so it was removed and the yaml files adjusted.
