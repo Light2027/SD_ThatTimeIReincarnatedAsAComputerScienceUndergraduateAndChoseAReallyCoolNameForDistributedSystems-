@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: lightsdthattimeireincarnatedasacomputerscienceunde 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: lightsdthattimeireincarnatedasacomputerscienceunde
+  template:
+    metadata:
+      labels:
+        app: lightsdthattimeireincarnatedasacomputerscienceunde 
+    spec:
+      containers:
+        - name: lightsdthattimeireincarnatedasacomputerscienceunde 
+          image: uebung.azurecr.io/lightsdthattimeireincarnatedasacomputerscienceunde
+          ports:
+          - containerPort: 80
