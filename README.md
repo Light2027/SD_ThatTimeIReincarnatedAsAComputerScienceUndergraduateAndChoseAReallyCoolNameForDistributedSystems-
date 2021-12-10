@@ -1,6 +1,7 @@
 # Links
 https://minikube.sigs.k8s.io/docs/handbook/accessing/#using-minikube-tunnel
 https://www.youtube.com/watch?v=K4uNl6JA7g8
+https://kubernetes.io/docs/tasks/inject-data-application/define-environment-variable-container/
 
 ## GitHub
 https://github.com/Light2027/SD_ThatTimeIReincarnatedAsAComputerScienceUndergraduateAndChoseAReallyCoolNameForDistributedSystems-
@@ -33,3 +34,4 @@ Then Istvan deleted his Kubernetes cluster, and created a new one for this proje
 Afterwards we noticed there was already a template available for the pipelines that builds the image, pushes it to the registry, and finally deploys it to the Azure Kubernetes Cluster, so we gave it a try.
 Apparently you don't need the Kubernetes files, so those were deleted and the newly created yaml files adjusted.
 Azure could not find my config file so it was removed and the yaml files adjusted.
+After that it worked, but still adjusted the ports so that the app uses port **80** instead of **8080**.
