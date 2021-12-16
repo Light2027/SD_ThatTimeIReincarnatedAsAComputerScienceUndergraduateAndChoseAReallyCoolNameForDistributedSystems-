@@ -16,7 +16,7 @@ spec:
         - name: lightsdthattimeireincarnatedasacomputerscienceunde 
           image: uebung.azurecr.io/lightsdthattimeireincarnatedasacomputerscienceunde
           ports:
-          - containerPort: 8080
+          - containerPort: 80
           env:
           - name: PORT 
-            value: "8080"
+            value: "80"
